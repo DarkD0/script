@@ -1,4 +1,0 @@
-requests
-random
-from hashlib import sha256
-from bs4 import BeautifulSoup as BS
