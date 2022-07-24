@@ -27,5 +27,5 @@ def ps(message):
         hd = {"Host":"api.rida-egypt.xyz"}
         data = {"phone":number,"password":number,"email":email+"@gmail.com","full_name":name}
         r = requests.post(url,headers=hd,data=data).json()
-        bot.send_message(message.chat.id,f"<strong> Done Create Account : {number} \n Password : {password}</strong>",parse_mode="html")
+        bot.send_message(message.chat.id,f"<strong> Done Create Account : {number} \n Password : {number}</strong>",parse_mode="html")
 bot.polling()
