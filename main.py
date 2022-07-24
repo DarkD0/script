@@ -3,6 +3,7 @@ import requests
 import os
 import random
 import time
+import base64
 token = "5545279600:AAG536spuk4bFBaeLUT96WlpPo9BMHyz5y0"
 
 bot = telebot.TeleBot(token)
